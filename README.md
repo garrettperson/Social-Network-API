@@ -20,7 +20,7 @@
 
   ## Walkthrough Video
 
-  https://drive.google.com/file/d/19tWTL5CCYBqFhpL8sO7mTtQsVRR-5Exd/view
+  https://drive.google.com/file/d/1N7XG6NjUROjuZTBDEt_ZcD69oh6DJBlT/view
   
   ## Credits
 
