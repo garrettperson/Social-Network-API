@@ -94,12 +94,6 @@ module.exports = {
                 return res.status(404).json({ message: 'Thought not found' });
             };
 
-            // const updatedUser = await User.findOneAndUpdate(
-            //     { _id: params.userId },
-            //     { $pull: { thoughts: params.id } }, 
-            //     { new: true }
-            // );
-
             const updatedUser = await User.findOneAndUpdate(
                 { thoughts: params.id },
                 { $pull: { thoughts: params.id } },

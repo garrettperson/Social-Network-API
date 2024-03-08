@@ -85,7 +85,6 @@ module.exports = {
     try {
         const { id, friendId } = req.params;
 
-        // const user = await User.findById(id);
         const updatedUser = await User.findOneAndUpdate({
             _id: id
         }, {
@@ -95,14 +94,6 @@ module.exports = {
         if (!updatedUser) {
         return res.status(404).json({ message: 'User not found' });
         }
-
-        // if (user.friends.includes(friendId)) {
-        // return res.status(400).json({ message: "Friend already exists in the user's friend list" });
-        // }
-
-        // user.friends.push(id);
-
-        // await user.save();
 
         res.status(200).json({ message: 'Friend added successfully', updatedUser });
         
@@ -128,20 +119,6 @@ module.exports = {
         if (!updatedUser) {
         return res.status(404).json({ message: 'User not found' });
         }
-
-        // const user = await User.findById(id);
-
-        // if (!user) {
-        // return res.status(404).json({ message: 'User not found' });
-        // }
-
-        // if (!user.friends.includes(friendId)) {
-        // return res.status(400).json({ message: "Friend does not exist in the user's friend list" });
-        // }
-
-        // user.friends = user.friends.filter(friend => friend !== friendId);
-
-        // await user.save();
 
         res.status(200).json({ message: 'Friend removed successfully', updatedUser });
     } catch (err) {
