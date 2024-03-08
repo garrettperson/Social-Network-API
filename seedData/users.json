@@ -1,0 +1,17 @@
+[
+    {
+      "username": "john_doe",
+      "email": "john@example.com",
+      "friendId": 1
+    },
+    {
+      "username": "jane_smith",
+      "email": "jane@example.com",
+      "friendId": 2
+    },
+    {
+      "username": "alice_wonder",
+      "email": "alice@example.com",
+      "friendId": 3
+    }
+  ]

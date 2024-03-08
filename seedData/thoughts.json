@@ -1,0 +1,17 @@
+[
+    {
+      "thoughtText": "Here's a thought!",
+        "username": "john_doe",
+        "reaction": "hello"
+    },
+    {
+      "thoughtText": "Here's another thought!",
+        "username": "jane_smith",
+        "reaction": "hi there"
+    },
+    {
+      "thoughtText": "Here's one more thought!",
+      "username": "alice_wonder",
+      "reaction": "how goes it?"
+    }
+  ]
